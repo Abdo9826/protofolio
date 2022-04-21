@@ -3,7 +3,7 @@ header {
   background-repeat: no-repeat;
   background-position: right 80mm;
   background-color: #1c1a19;
-  height: 590px;
+  height: 350px;
   width: 375px;
   left: 0;
   top: 92px;
@@ -13,7 +13,7 @@ header {
   align-items: flex-start;
   padding: 120px 24px;
   position: absolute;
-  margin-left: 33%;
+  margin-left: 933px;
 }
 
 h1 {
@@ -74,7 +74,7 @@ h3 {
   margin: 12px 0;
 }
 
-section {
+.section {
   margin-left: 35px;
   margin-right: 161px;
   margin-top: 42px;
@@ -120,33 +120,27 @@ p {
 
 .ul {
   width: 70px;
-  margin-left: 310px;
+  margin-left: 343px;
   margin-top: 12px;
 }
 
-h4 {
-  position: static;
-  width: 77px;
-  height: 24px;
-  left: 12px;
-  top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  margin-left: 0;
-  margin-bottom: 7px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+a {
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+  margin-left: -45px;
+  margin-top: 10px;   
 }
 
 .img {
   margin-left: 360px;
   margin-top: 40px;
+}
+
+.a {
+  margin-top: 19px;
+  margin-left: 70px;
 }
