@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name 
 
-setup and mobile version skeleton with html and css
+Mobile protofolio
 
 
 
