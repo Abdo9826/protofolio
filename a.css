@@ -15,22 +15,6 @@
   position: absolute;
   position: relative;
 }
-/*header {
-  background-image: url(image/Group.png);
-  background-repeat: no-repeat;
-  background-position: right 80mm;
-  background-color: #1c1a19;
-  height: 350px;
-  width: 375px;
-  left: 0;
-  top: 92px;
-  border-radius: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 24px;
-  position: absolute;
-}*/
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
