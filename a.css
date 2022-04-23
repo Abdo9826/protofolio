@@ -6,19 +6,15 @@
   background-position: right 80mm;
   height: 350px;
   width: 375px;
-  left: 0;
-  top: 92px;
-  border-radius: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
-  position: absolute;
   position: relative;
 }
 
 .s1h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
@@ -63,7 +59,7 @@ h3 {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -124,14 +120,13 @@ a {
 
 .s2h1 {
   position: static;
-  width: 327px;
+  width: 390px;
   height: 83px;
   left: 0;
   top: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
+  font-family: 'Crete Round';
+  font-weight: 400px;
+  font-size: 43px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -140,6 +135,7 @@ a {
   order: 0;
   flex-grow: 0;
   margin: 24px 0;
+  margin-left: 38px;
 }
 
 .s3h3 {
@@ -148,7 +144,7 @@ a {
   height: 36px;
   left: 0;
   top: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -168,7 +164,7 @@ a {
   height: 147px;
   left: 0;
   top: 48px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -181,9 +177,9 @@ a {
 }
 
 .body2 {
-  background-color: #e5e5e5;
+  background-color: #fff;
   width: 343px;
-  margin-left: -24px;
+  margin-left: -35px;
   margin-top: -36px;
   padding: 40px;
   height: fit-content;
@@ -229,14 +225,13 @@ a {
   order: 3;
   flex-grow: 0;
   margin: 12px 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   text-align: center;
   color: #fff;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  border: none;
 }
 
 .project2 {
@@ -256,7 +251,7 @@ a {
 }
 
 .s4h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round';
   height: 81px;
   width: 295px;
   left: 16px;
@@ -273,7 +268,7 @@ a {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -288,15 +283,16 @@ a {
 
 .btn2 {
   position: absolute;
-  width: 343px;
+  width: 308px;
   background: #ff6b00;
   height: 60px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  margin-left: 45px;
 }
 
 .body3 {
@@ -305,8 +301,7 @@ a {
   background-repeat: no-repeat;
   background-position: right 110mm;
   height: fit-content;
-  width: 375px;
-  left: 0;
+  width: 343px;
   top: 92px;
   border-radius: 0;
   display: flex;
@@ -315,7 +310,7 @@ a {
   padding: 120px 24px;
   position: absolute;
   position: relative;
-  margin-left: -24px;
+  margin-left: 0;
   margin-top: -100px;
 }
 
@@ -326,6 +321,7 @@ a {
   flex-direction: column;
   justify-content: space-around;
   margin-top: 35%;
+  padding: 10px;
 }
 
 .lastli {
@@ -334,7 +330,7 @@ a {
   height: 24px;
   left: 0;
   top: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -352,7 +348,7 @@ a {
 }
 
 .h4 {
-  margin-left: auto;
+  margin-left: -100px;
   margin-top: auto;
 }
 
@@ -363,10 +359,11 @@ a {
   width: 327px;
   float: left;
   margin-bottom: 80px;
+  margin-left: 37px;
 }
 
 .s1h11 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round';
   font-size: 75px;
   font-weight: 400;
   line-height: 64px;
@@ -400,19 +397,18 @@ a {
   order: 3;
   flex-grow: 0;
   margin: 12px 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   text-align: center;
   color: #fff;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  border: none;
   gap: 10px;
 }
 
 .form2 {
-  padding-bottom: 20%;
+  margin-left: 0;
 }
 
 .hr2 {
@@ -421,7 +417,7 @@ a {
   background-color: #fff;
   width: 327px;
   float: left;
-  margin-top: 130px;
+  margin-top: 170px;
 }
 
 #project22 {
@@ -435,3 +431,66 @@ a {
 #project20 {
   margin-top: -80px;
 }
+
+.des1 {
+  margin-left: -40px;
+  margin-bottom: 50px;
+}
+
+.des2 {
+margin-bottom: 50px;
+}
+
+.lastli2 {
+  position: static;
+  width: 114px;
+  height: 24px;
+  left: 0;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 20%;
+  justify-content: center;
+  margin-left: 25px;
+  margin-left: -20px;
+}
+
+.des3 {
+  margin-left: 120px;
+}
+
+.lastli3 {
+  position: static;
+  width: 114px;
+  height: 24px;
+  left: 0;
+  top: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 20%;
+  justify-content: center;
+  margin-left: -120px;
+  margin-top: 20px;
+}
+
+
