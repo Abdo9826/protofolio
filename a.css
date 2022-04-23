@@ -240,10 +240,10 @@ a {
 }
 
 .project2 {
-   background-image: url(image/proart.png);
-   background-size: contain;
-   background-repeat: no-repeat ;
-   height: 450px;
+  background-image: url(image/proart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 450px;
 }
 
 .lan2 {
@@ -315,7 +315,7 @@ a {
   padding: 120px 24px;
   position: absolute;
   position: relative;
-  margin-left:-24px;
+  margin-left: -24px;
   margin-top: -100px;
  }
 
@@ -349,12 +349,12 @@ a {
   padding-top: 20%;
   justify-content: center;
   margin-left: 25px;
- }
+}
 
 .h4 {
   margin-left: auto;
   margin-top: auto;
- }
+}
 
 .hr1 {
   border: none;
@@ -415,7 +415,7 @@ a {
   padding-bottom: 20%;
 }
 
-.hr2 {  
+.hr2 {
   border: none;
   height: 1px;
   background-color: #fff;
