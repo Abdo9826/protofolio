@@ -59,16 +59,17 @@ h3 {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: #f4f5f7;;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
+  margin-top: -24px;
 }
 
 .section {
@@ -124,7 +125,7 @@ a {
   height: 83px;
   left: 0;
   top: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round';
   font-weight: 400px;
   font-size: 40px;
   line-height: 52px;
@@ -144,7 +145,7 @@ a {
   height: 36px;
   left: 0;
   top: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -164,7 +165,7 @@ a {
   height: 147px;
   left: 0;
   top: 48px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -184,6 +185,7 @@ a {
   padding: 40px;
   height: fit-content;
   padding-bottom: 100px;
+  padding-left: 24px;
 }
 
 .lan1 {
@@ -225,7 +227,7 @@ a {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   text-align: center;
   color: #fff;
   font-style: normal;
@@ -251,7 +253,7 @@ a {
 }
 
 .s4h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Crete Round';
   height: 81px;
   width: 295px;
   left: 16px;
@@ -268,7 +270,7 @@ a {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -286,13 +288,14 @@ a {
   width: 308px;
   background: #ff6b00;
   height: 60px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
   margin-left: 0;
+  border: none;
 }
 
 .body3 {
@@ -312,6 +315,7 @@ a {
   position: relative;
   margin-left: 0;
   margin-top: -100px;
+  margin-left: -24px;
 }
 
 .description {
@@ -363,8 +367,8 @@ a {
 }
 
 .s1h11 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 75px;
+  font-family: 'Crete Round';
+  font-size: 72px;
   font-weight: 400;
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
@@ -397,7 +401,7 @@ a {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   text-align: center;
   color: #fff;
   font-style: normal;
@@ -405,6 +409,8 @@ a {
   font-size: 17px;
   line-height: 24px;
   gap: 10px;
+  border: none;
+  margin-top: 40px;
 }
 
 .form2 {
@@ -448,7 +454,7 @@ a {
   height: 24px;
   left: 0;
   top: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -492,4 +498,8 @@ a {
   justify-content: center;
   margin-left: -120px;
   margin-top: 20px;
+}
+
+.h3 {
+  margin-top: auto;
 }
