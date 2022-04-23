@@ -14,7 +14,7 @@
 }
 
 .s1h1 {
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
@@ -59,7 +59,7 @@ h3 {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -124,9 +124,9 @@ a {
   height: 83px;
   left: 0;
   top: 0;
-  font-family: 'Crete Round';
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400px;
-  font-size: 43px;
+  font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -144,7 +144,7 @@ a {
   height: 36px;
   left: 0;
   top: 0;
-  font-family: 'Crete Round';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -164,7 +164,7 @@ a {
   height: 147px;
   left: 0;
   top: 48px;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -222,10 +222,10 @@ a {
   top: 259px;
   background: #ff6b00;
   flex: none;
-  order: 3;
+  order: 1;
   flex-grow: 0;
   margin: 12px 0;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: #fff;
   font-style: normal;
@@ -251,7 +251,7 @@ a {
 }
 
 .s4h1 {
-  font-family: 'Crete Round';
+  font-family: Arial, Helvetica, sans-serif;
   height: 81px;
   width: 295px;
   left: 16px;
@@ -268,7 +268,7 @@ a {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -292,7 +292,7 @@ a {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  margin-left: 45px;
+  margin-left: 0;
 }
 
 .body3 {
@@ -316,7 +316,7 @@ a {
 
 .description {
   display: flex;
-  order: 2;
+  order: 3;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
@@ -330,7 +330,7 @@ a {
   height: 24px;
   left: 0;
   top: 12px;
-  font-family: 'Inter';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -363,7 +363,7 @@ a {
 }
 
 .s1h11 {
-  font-family: 'Crete Round';
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 75px;
   font-weight: 400;
   line-height: 64px;
@@ -394,7 +394,7 @@ a {
   top: 395px;
   background: #ff6b00;
   flex: none;
-  order: 3;
+  order: 1;
   flex-grow: 0;
   margin: 12px 0;
   font-family: 'Inter';
@@ -417,7 +417,8 @@ a {
   background-color: #fff;
   width: 327px;
   float: left;
-  margin-top: 170px;
+  margin-top: 300px;
+  order: 2;
 }
 
 #project22 {
