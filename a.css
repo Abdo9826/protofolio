@@ -502,3 +502,135 @@ a {
 .h3 {
   margin-top: auto;
 }
+
+.footer {
+  background-color: #fff;
+  height: fit-content;
+  width: 343px;
+  top: 92px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  position: relative;
+  margin-top: -100px;
+  margin-left: -24px;
+}
+
+.h2footer {
+  position: static;
+  width: 327px;
+  height: 216px;
+  left: 0;
+  top: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+}
+
+input {
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px/2);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #979493;
+  width: 295px
+}
+
+.input {
+  order: 2;
+  margin: 73px;
+  padding: auto;
+  margin-left: auto;
+}
+
+textarea {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fBf8f7;
+  border: none;
+  height: 114px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.lastbtn {
+  height: 48px;
+  width: 131px;
+  left: 98px;
+  top: 282px;
+  padding: 12px;
+  background-color: #ff6b00;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-left: 95px;
+  margin-top: 24px;
+  color: #fff;
+}
+
+#email {
+margin-top: 39px;
+}
+
+.hrbtn {
+  margin-top: 124px;
+  width: 375px;
+  margin-left: -20px;
+}
+
+.hrtext {
+  width: 327px;
+  margin-left: 0;
+}
+
+.ul5 {
+  order: 3;
+  list-style-type: none;
+  display: flex;
+  margin-top:-45px;
+  margin-left: -20px;
+}
+
+.li5 {
+  margin-left: 40px;
+}
+
+.lasthr {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
+  background: #0D151E;
+  border-radius: 10px;
+}
