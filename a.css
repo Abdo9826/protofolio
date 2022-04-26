@@ -531,14 +531,14 @@ a {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 input {
   height: 18px;
   left: 16px;
   right: 16px;
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -548,7 +548,7 @@ input {
   align-items: center;
   border: none;
   color: #979493;
-  width: 295px
+  width: 295px;
 }
 
 .input {
@@ -563,12 +563,10 @@ textarea {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #fBf8f7;
+  background: #fbf8f7;
   border: none;
   height: 114px;
   width: 327px;
-  left: 0;
-  top: 0;
   border-radius: 0;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
@@ -599,7 +597,7 @@ textarea {
 }
 
 #email {
-margin-top: 39px;
+  margin-top: 39px;
 }
 
 .hrbtn {
@@ -617,7 +615,7 @@ margin-top: 39px;
   order: 3;
   list-style-type: none;
   display: flex;
-  margin-top:-45px;
+  margin-top: -45px;
   margin-left: -20px;
 }
 
@@ -629,8 +627,8 @@ margin-top: 39px;
   position: absolute;
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
