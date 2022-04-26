@@ -605,30 +605,3 @@ textarea {
   width: 375px;
   margin-left: -20px;
 }
-
-.hrtext {
-  width: 327px;
-  margin-left: 0;
-}
-
-.ul5 {
-  order: 3;
-  list-style-type: none;
-  display: flex;
-  margin-top: -45px;
-  margin-left: -20px;
-}
-
-.li5 {
-  margin-left: 40px;
-}
-
-.lasthr {
-  position: absolute;
-  width: 134px;
-  height: 5px;
-  left: calc(50% - 134px / 2 - 0.5px);
-  bottom: 8px;
-  background: #0d151e;
-  border-radius: 10px;
-}
