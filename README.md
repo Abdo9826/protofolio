@@ -39,6 +39,20 @@ Mobile protofolio
 - Twitter: [@Abdelrahman Mohamed](https://twitter.com/abodyalex1)
 - LinkedIn: [Abdelruhman Mihamed](https://www.linkedin.com/in/abdelruhman-mihamed-a42667179/)
 
+## Collaborators
+
+** Winnie**
+
+- GitHub: [@edubew](https://github.com/edubew)
+- Twitter: [@edube_winne](https://twitter.com/edube_winne)
+- LinkedIn: [Winfred Edube](https://www.linkedin.com/in/winfred-edube-9820a422a/)
+
+** Favour**
+
+- GitHub: [@Favourezeugwa](https://github.com/Favourezeugwa)
+- LinkedIn: [Favour Amarachi Ezeugwa](https://www.linkedin.com/in/favour-amarachi-ezeugwa-a5bb31149/)
+
+
 
 
 ## 🤝 Contributing
