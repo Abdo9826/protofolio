@@ -1093,10 +1093,9 @@ textarea {
   footer {
     width: 1400px;
     height: 1195px; 
-    left: 0;
     top: 0;
     background-color: #fff;
-}
+  }
 
   .h2footer {
     height: 256px;
@@ -1112,7 +1111,7 @@ textarea {
     color: #262626;
     margin-left: 135px;
     margin-top: 130px;
-}
+  }
 
   #lastname {
     margin-top: -40px;
@@ -1128,7 +1127,7 @@ textarea {
     letter-spacing: 0;
     text-align: left;
     color: #979493;
-}
+  }
 
   #name2 {
     height: 18px;
@@ -1144,7 +1143,7 @@ textarea {
     color: #979493;
     margin-top: -330px;
     margin-left: -100px;
-}
+  }
 
   #Email {
     margin-top: 54px;
@@ -1160,17 +1159,17 @@ textarea {
     letter-spacing: 0;
     text-align: left;
     color: #979493;
-}
+  }
 
   .lastbtn {
     margin-top: 24px;
     margin-left: -100px;
-}
+  }
 
   .footerinput {
     display: flex;
     flex-direction: row;
-}
+  }
 
   #textarea1 {
     height: 114px;
@@ -1203,7 +1202,7 @@ textarea {
     left: 0;
     top: 47px;
     border-radius: 0;
-   margin-left: 300px;
+    margin-left: 300px;
   }
 
   .hremail {
