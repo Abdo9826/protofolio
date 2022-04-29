@@ -666,7 +666,7 @@ textarea {
     height: 870px;
     background-repeat: no-repeat;
     background-position: right 18mm;
-  }  
+  }
 
   header {
     width: 1400px;
@@ -708,7 +708,7 @@ textarea {
     color: #fff;
   }
 
- .a {
+  .a {
     margin-left: 215px;
   }
 
@@ -786,7 +786,7 @@ textarea {
     top: 0;
     margin-top: 251px;
     margin-bottom: 0;
-}
+  }
 
   .body3 {
     background-image: url(image/group2.png);
@@ -798,14 +798,6 @@ textarea {
     top: 0;
     background-color: #262626;
     margin-top: 134px;
-  }
-
-  footer {
-    width: 1440px;
-    height: 1195px;
-    left: 0;
-    top: 2680px;
-    color: #1c1a19;
   }
 
   #sec2 {
@@ -1034,8 +1026,8 @@ textarea {
     font-family: 'Inter', sans-serif;
   }
 
-.ll1 {
-  margin-left: -52px;
+  .ll1 {
+    margin-left: -52px;
   }
 
   .ll2 {
