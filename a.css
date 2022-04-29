@@ -236,14 +236,14 @@ nav {
   height: 48px;
   left: 0;
   top: 259px;
-  background: #ff6b00;
+  background: #e05304;
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
   font-family: "Inter", serif;
   text-align: center;
-  color: #fff;
+  color: #f4f1f0;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -304,14 +304,14 @@ a {
 .btn2 {
   position: absolute;
   width: 308px;
-  background: #ff6b00;
+  background: #e05304;
   height: 60px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: #f4f1f0;
   margin-left: 0;
   border: none;
 }
@@ -683,6 +683,8 @@ textarea {
     height: 870px;
     background-repeat: no-repeat;
     background-position: right 18mm;
+    margin-top: -10px;
+    margin-left: -8px;
   }
 
   header {
@@ -801,8 +803,9 @@ textarea {
     height: fit-content;
     left: 0;
     top: 0;
-    margin-top: 251px;
+    margin-top: 241px;
     margin-bottom: 0;
+    margin-left: -24px;
   }
 
   .body3 {
@@ -814,7 +817,8 @@ textarea {
     left: 0;
     top: 0;
     background-color: #262626;
-    margin-top: 134px;
+    margin-top: 124px;
+    margin-left: -24px;
   }
 
   #sec2 {
@@ -865,6 +869,8 @@ textarea {
     margin-top: 374px;
     width: 369px;
     margin-left: 0;
+    background: #e05304;
+
   }
 
   .project2 {
@@ -1112,6 +1118,7 @@ textarea {
     height: 1195px;
     top: 0;
     background-color: #fff;
+    margin-left: -24px;
   }
 
   .h2footer {
