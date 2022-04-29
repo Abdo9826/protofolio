@@ -207,6 +207,10 @@ nav {
   margin-left: 0;
 }
 
+.l11 {
+  margin-left: -15px
+}
+
 .q1 {
   position: static;
   width: 25px;
@@ -854,7 +858,7 @@ textarea {
   }
 
   .lan1 {
-    margin-left: -95px;
+    margin-left: -110px;
   }
 
   .btn2 {
@@ -1242,11 +1246,15 @@ textarea {
     display: block;
   }
 
+  .l11 {
+    margin-left:-50;
+  }
+
   .none2 {
     display: none;
   }
 
   .l1 {
-    margin-left: -200px;
+    margin-left: -215px;
   }
 }
