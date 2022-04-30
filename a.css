@@ -1,3 +1,7 @@
+button {
+  transition: 0.7s;
+}
+
 .body {
   background-color: #1c1a19;
   background-image: url(image/Group.png);
@@ -10,10 +14,6 @@
   align-items: flex-start;
   padding: 120px 24px;
   position: relative;
-}
-
-button {
-  transition: 0.7s;
 }
 
 button:hover {
@@ -351,7 +351,7 @@ a {
   height: 24px;
   left: 0;
   top: 12px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -499,7 +499,7 @@ a {
   height: 24px;
   left: 0;
   top: 12px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -737,7 +737,7 @@ textarea {
     height: 160px;
     left: 0;
     top: 192px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -763,7 +763,7 @@ textarea {
   }
 
   .h2sec1 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -789,7 +789,7 @@ textarea {
     height: 123px;
     left: 0;
     top: 424px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -847,7 +847,7 @@ textarea {
   }
 
   .prj1 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -897,7 +897,7 @@ textarea {
     width: 337px;
     left: 16px;
     top: 8px;
-    font-family: 'Crete', Round, sans-serif;
+    font-family: "Crete", Round, sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -905,7 +905,7 @@ textarea {
   }
 
   .p2 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -935,7 +935,7 @@ textarea {
     height: 81px;
     left: 16px;
     top: 8px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -943,7 +943,7 @@ textarea {
   }
 
   .hpro3 {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -991,7 +991,7 @@ textarea {
     height: 78px;
     left: 0;
     top: 130px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -1007,7 +1007,7 @@ textarea {
     height: 148px;
     left: 0;
     top: 232px;
-    font-family: 'Inter', serif;
+    font-family: "Inter", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1045,7 +1045,7 @@ textarea {
 
   .lastli {
     margin-left: -30px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .ll1 {
@@ -1125,7 +1125,7 @@ textarea {
     width: 455px;
     left: 0;
     top: 0;
-    font-family: 'Inter', serif;
+    font-family: "Inter", serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
