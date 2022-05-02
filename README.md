@@ -13,8 +13,7 @@ Mobile protofolio
 - HTML
 - CSS
 
-##Online version link
-https://abdo9826.github.io/protofolio/
+
 
 
 
@@ -29,6 +28,9 @@ https://abdo9826.github.io/protofolio/
 ### Run tests
 
 ### Deployment
+
+### live version 
+https://abdo9826.github.io/protofolio/
 
 
 
