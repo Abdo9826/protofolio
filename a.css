@@ -663,6 +663,13 @@ textarea {
   background-repeat: no-repeat;
 }
 
+.hrmenu {
+  float: left;
+  color: #6f6c6b;
+  width: 327px;
+  top: 55px;
+}
+
 .ulnav {
   margin-top: 74px;
   margin-left: -200%;
