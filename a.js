@@ -1,12 +1,12 @@
-const humberger = document.querySelector(".humberger");
+const humberger = document.querySelector('.humberger');
 
-const ulnav = document.querySelector(".ulnav");
+const ulnav = document.querySelector('.ulnav');
 
-let logo = document.querySelector(".aa");
-
-let Protofolio = document.querySelector(".limenu1");
+const Protofolio = document.querySelector('.limenu1');
+const logo = document.querySelector('.aa')
 
 humberger.addEventListener("click", function () { 
-    logo.classList.toggle("none")
-    ulnav.classList.toggle("active") 
+  logo.classList.toggle("none")
+  ulnav.classList.toggle("active") 
+  humberger.classList.toggle("active")
 })

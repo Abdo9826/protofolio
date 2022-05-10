@@ -665,8 +665,8 @@ textarea {
 }
 
 .humberger.active {
-
-  background-image: url(image/Wifi.png);
+  background-image: url(image/x.png);
+  background-repeat: no-repeat;
 }
 
 .ulnav {
