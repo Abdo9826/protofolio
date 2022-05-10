@@ -107,6 +107,7 @@ nav {
 }
 
 .aa {
+  order: 1;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -134,7 +135,6 @@ nav {
   left: 0;
   top: 0;
   font-family: "Crete Round", serif;
-  font-weight: 400px;
   font-size: 40px;
   line-height: 52px;
   display: flex;
@@ -192,7 +192,6 @@ nav {
   margin-left: -35px;
   margin-top: -36px;
   padding: 40px;
-  height: fit-content;
   padding-bottom: 100px;
   padding-left: 24px;
 }
@@ -272,7 +271,6 @@ nav {
   width: 295px;
   left: 16px;
   top: 8px;
-  border-radius: nullpx;
   margin-left: 16px;
   padding-top: 80px;
   color: #e5e5e5;
@@ -321,7 +319,6 @@ a {
   background-image: url(image/frame2.png);
   background-repeat: no-repeat;
   background-position: right 110mm;
-  height: fit-content;
   width: 343px;
   top: 92px;
   border-radius: 0;
@@ -523,7 +520,6 @@ a {
 
 footer {
   background-color: #fff;
-  height: fit-content;
   width: 343px;
   top: 92px;
   border-radius: 0;
@@ -572,7 +568,6 @@ input {
 .input {
   order: 2;
   margin: 73px;
-  padding: auto;
   margin-left: auto;
 }
 
@@ -635,7 +630,6 @@ textarea {
   display: flex;
   margin-top: -45px;
   margin-left: -20px;
-  height: fit-content;
   margin-bottom: -80px;
 }
 
@@ -655,12 +649,51 @@ textarea {
   margin-left: -10px;
 }
 
+.ulnav.active {
+  margin-left: 0;
+}
+
+.humberger {
+  color: rgba(60, 58, 57, 1);
+  background-image: url(image/Union.png);
+}
+
+.humberger.active {
+  background-image: url(image/x.png);
+  background-repeat: no-repeat;
+}
+
+.hrmenu {
+  float: left;
+  color: #6f6c6b;
+  width: 327px;
+  top: 55px;
+}
+
 .ulnav {
-  display: none;
+  margin-top: 74px;
+  margin-left: -200%;
+  width: 383px;
+  background-color: rgba(60, 58, 57, 0.9);
+  filter: blur(0.5px);
+  height: 500px;
+}
+
+.limenu {
+  color: #fff5e1;
 }
 
 .linav {
-  display: none;
+  order: 2;
+  font-family: 'Inter', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  list-style-type: none;
+  color: #fff5e1;
+  margin-top: 10px;
 }
 
 #sec2 {
@@ -708,14 +741,19 @@ textarea {
   }
 
   .ulnav {
+    left: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
     display: block;
     display: flex;
     list-style-type: none;
-    margin-top: 26px;
+    margin-top: -23px;
     margin-left: 860px;
   }
 
   .linav {
+    margin-top: 0;
     display: block;
     margin-left: 32px;
     font-family: Inter, sans-serif;
@@ -728,6 +766,7 @@ textarea {
   }
 
   .a {
+    margin-top: 30px;
     margin-left: 215px;
   }
 
@@ -800,7 +839,6 @@ textarea {
 
   .body2 {
     width: 1400px;
-    height: fit-content;
     left: 0;
     top: 0;
     margin-top: 241px;
@@ -972,7 +1010,6 @@ textarea {
     width: 337px;
     left: 16px;
     top: 8px;
-    border-radius: nullpx;
     font-family: Crete Round, sans-serif;
     font-size: 32px;
     font-weight: 400;
@@ -1253,7 +1290,7 @@ textarea {
   }
 
   .l11 {
-    margin-left: -50;
+    margin-left: -50px;
   }
 
   .none2 {
