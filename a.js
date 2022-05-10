@@ -12,5 +12,5 @@ humberger.addEventListener('click', () => {
 limenu.addEventListener('click', () => {
   ulnav.classList.remove('active');
   humberger.classList.remove('active');
-  logo.classList.remove('none')
+  logo.classList.remove('none');
 });
