@@ -7,7 +7,7 @@ button:hover {
   color: #f55800;
 }
 
-.body {
+.body{
   background-color: #1c1a19;
   background-image: url(image/Group.png);
   background-repeat: no-repeat;
@@ -107,6 +107,7 @@ nav {
 }
 
 .aa {
+  order: 1;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -655,12 +656,51 @@ textarea {
   margin-left: -10px;
 }
 
+.ulnav.active {
+  margin-left: 0;
+}
+
+.humberger {
+  background-image: url(image/Union.png);
+}
+
+.humberger.active {
+
+  background-image: url(image/Wifi.png);
+}
+
 .ulnav {
-  display: none;
+  margin-top: 74px;
+ margin-left:-200%;
+  width: 383px;
+  background-color: rgba(60, 58, 57, 0.9);
+  filter: blur(0.5px);
+  display:fixed;
+  height: 500px;
+}
+
+.hrmenu {
+  float: left;
+  width: 327px;
+  top: 55px;
+  color: #6f6c6b;
+}
+
+.limenu {
+  color: #fff5E1;;
 }
 
 .linav {
-  display: none;
+  order: 2;
+  font-family: 'Inter', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  list-style-type: none;
+  color: #fff5E1;
+  margin-top: 10px;
 }
 
 #sec2 {
@@ -707,15 +747,20 @@ textarea {
     display: none;
   }
 
-  .ulnav {
+  .ulnav { 
+    left: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
     display: block;
     display: flex;
     list-style-type: none;
-    margin-top: 26px;
+    margin-top: -23px;
     margin-left: 860px;
   }
 
   .linav {
+    margin-top: 0;
     display: block;
     margin-left: 32px;
     font-family: Inter, sans-serif;
@@ -727,7 +772,9 @@ textarea {
     color: #fff;
   }
 
+
   .a {
+    margin-top: 30px;
     margin-left: 215px;
   }
 
