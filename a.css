@@ -7,7 +7,7 @@ button:hover {
   color: #f55800;
 }
 
-.body{
+.body {
   background-color: #1c1a19;
   background-image: url(image/Group.png);
   background-repeat: no-repeat;
@@ -135,7 +135,6 @@ nav {
   left: 0;
   top: 0;
   font-family: "Crete Round", serif;
-
   font-size: 40px;
   line-height: 52px;
   display: flex;
@@ -670,12 +669,11 @@ textarea {
   width: 383px;
   background-color: rgba(60, 58, 57, 0.9);
   filter: blur(0.5px);
-  display: fixed;
   height: 500px;
 }
 
 .limenu {
-  color: #fff5E1;;
+  color: #fff5e1;;
 }
 
 .linav {
@@ -735,7 +733,7 @@ textarea {
     display: none;
   }
 
-.ulnav { 
+  .ulnav {
     left: 0;
     padding: 0;
     width: 0;
@@ -760,7 +758,7 @@ textarea {
     color: #fff;
   }
 
-.a {
+  .a {
     margin-top: 30px;
     margin-left: 215px;
   }
