@@ -4,14 +4,14 @@ const logo = document.querySelector('.aa');
 const limenu = document.querySelector('.limenu');
 const limenu2 = document.querySelector('.limenu2');
 const limenu3 = document.querySelector('.limenu3');
-const mobile_button1 = document.querySelector('.btn1');
+const mobilebutton1 = document.querySelector('.btn1');
 const xbutton = document.querySelector('.xbutton');
-const mobile_window = document.querySelector('.mobile-window');
-const mobile_button2 = document.querySelector('.btn2');
-const mobile_button3 = document.querySelector('.btn23');
-const mobile_button4 = document.querySelector('.btn24');
-const mobile_button5 = document.querySelector('.btn25');
-const mobile_button6 = document.querySelector('.btn26');
+const mobilewindow = document.querySelector('.mobile-window');
+const mobilebutton2 = document.querySelector('.btn2');
+const mobilebutton3 = document.querySelector('.btn23');
+const mobilebutton4 = document.querySelector('.btn24');
+const mobilebutton5 = document.querySelector('.btn25');
+const mobilebutton6 = document.querySelector('.btn26');
 
 humberger.addEventListener('click', () => {
   logo.classList.toggle('none');
@@ -37,32 +37,30 @@ limenu3.addEventListener('click', () => {
   logo.classList.remove('none');
 });
 
-mobile_button2.addEventListener('click', () => {
-  mobile_window.style.display = 'block';
-  });
+mobilebutton2.addEventListener('click', () => {
+  mobilewindow.style.display = 'block';
+});
 
-mobile_button1.addEventListener('click', () => {
-  mobile_window.style.display = 'block';
+mobilebutton1.addEventListener('click', () => {
+  mobilewindow.style.display = 'block';
 });
 
 xbutton.addEventListener('click', () => {
-  mobile_window.style.display = 'none';
+  mobilewindow.style.display = 'none';
 });
 
-mobile_button3.addEventListener('click', ()=> {
-  mobile_window.style.display = 'block';
-  });
-
-  mobile_button4.addEventListener('click', ()=> {
-    mobile_window.style.display = 'block';
-    });
-
-
-mobile_button5.addEventListener('click', ()=> {
-  mobile_window.style.display = 'block';
+mobilebutton3.addEventListener('click', () => {
+  mobilewindow.style.display = 'block';
 });
 
-mobile_button6.addEventListener('click', ()=> {
-  mobile_window.style.display = 'block';
+mobilebutton4.addEventListener('click', () => {
+  mobilewindow.style.display = 'block';
 });
 
+mobilebutton5.addEventListener('click', () => {
+  mobilewindow.style.display = 'block';
+});
+
+mobilebutton6.addEventListener('click', () => {
+  mobilewindow.style.display = 'block';
+});
