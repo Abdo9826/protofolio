@@ -1,3 +1,82 @@
+.mobile-window {
+  width: 100%;
+  height: 140%;
+  background-color: black;
+  top: 0;
+  position: absolute;
+  margin-left: -25px ;
+  display: none;
+}
+
+.small-window {
+  height: 718px;
+  width: 390px;
+  background-color: #fff;
+  margin-left: 18px;
+  margin-top: 60px;
+}
+
+.h2window {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.window-header {
+  margin-left: 0;
+  display: flex;
+  list-style-type: none;
+  margin-left: -50px;
+}
+
+.window2-footer {
+  margin-left: 0;
+}
+
+.awindow {
+  margin-top: 18px;
+}
+
+.ulwindow {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin-left: -50px;
+  margin-top: 40px;
+}
+
+.img-window {
+  margin-left: -10px;
+}
+
+.p1window {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  height: 220px;
+  width: 311px;
+  left: 0;
+  top: 0;
+  color: #344563;
+  margin-left: -9px;
+}
+
+.window-footer {
+  list-style-type: none;
+  display: flex;
+  margin-left: -55px;
+  margin-top: 40px;
+}
+
+.btnwindow {
+  border: none;
+}
+
 button {
   transition: 0.7s;
 }
@@ -1299,5 +1378,64 @@ textarea {
 
   .l1 {
     margin-left: -215px;
+  }
+
+  .small-window {
+    margin-top: 112px;
+    margin-left: 142px;
+    width: 1150px;
+    display: flex;
+  }
+
+  .h3window {
+    height: 40px;
+    width: 1040px;
+    left: 0;
+    top: 0;
+    font-family: Crete Round;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+    margin-left: 0px;
+  }
+
+  .awindow {
+    margin-top: 40px;
+  }
+
+  .ulwindow {
+    margin-top: 0;
+  }
+
+  .img2-window {
+    margin-left: -10px;
+    margin-top: 50px;
+  }
+
+  .p2window {
+    height: 336px;
+    width: 424px;
+    left: 0;
+    top: 0;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #344563;
+    font-style: normal;
+  }
+
+  .window2-footer {
+    margin-left: 670px;
+    margin-top: -470px;
+
+  }
+
+  .window-footer {
+    margin-top: 70px;
+    margin-left: -50px;
   }
 }
