@@ -5,7 +5,7 @@
   opacity: 0.9;
   top: 0;
   position: absolute;
-  margin-left: -25px ;
+  margin-left: -25px;
   display: none;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .window-header {
-  margin-left: 0;
+ 
   display: flex;
   list-style-type: none;
   margin-left: -50px;
@@ -980,7 +980,7 @@ textarea {
   }
 
   .lan1 {
-    margin-left: -110px;
+    margin-left: -80px;
   }
 
   .btn2 {
@@ -1393,13 +1393,13 @@ textarea {
     width: 1040px;
     left: 0;
     top: 0;
-    font-family: Crete Round;
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
     text-align: left;
     color: #172b4d;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .awindow {
@@ -1432,7 +1432,6 @@ textarea {
   .window2-footer {
     margin-left: 670px;
     margin-top: -470px;
-
   }
 
   .window-footer {
