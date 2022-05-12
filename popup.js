@@ -16,7 +16,7 @@ h3.innerText = 'Multi-Post Stories';
 container.append(h3);
 const p = document.createElement('p');
 p.setAttribute('class', 'prj1');
-p.innerText = "A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a standard dummy text";
+p.innerText = 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a standard dummy text';
 container.append(p);
 const form = document.createElement('form');
 form.setAttribute('action', '#');
