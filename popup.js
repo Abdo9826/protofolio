@@ -33,58 +33,56 @@ ul1.innerHTML = `  <li class="l11">
 <li class="l1">
 <img src="image/runy.png" alt="runy" />
 </li>`;
- const form = document.createElement('form');
- form.setAttribute('action', '#');
- container.append(form);
- const button1 = document.createElement('button');
- button1.setAttribute('class', 'btn1');
- button1.innerText = 'See Project';
- form.append(button1);
+const form = document.createElement('form');
+form.setAttribute('action', '#');
+container.append(form);
+const button1 = document.createElement('button');
+button1.setAttribute('class', 'btn1');
+button1.innerText = 'See Project';
+form.append(button1);
 // objects array
-const projectsContainer =[
-    {
-        id : 1,
-        name: 'Profesional Art Printing Data',
-        name2: 'Data Dashboard Healthcare',
-        featuredImage: '',
-        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
+const projectsContainer = [
+  {
+    id: 1,
+    name: 'Profesional Art Printing Data',
+    name2: 'Data Dashboard Healthcare',
+    featuredImage: '',
+    description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html2.png', 'bootstrap2.png', 'ruby2'],
 
-    },
-    {
-        id : 2,
-        name: 'Profesional Art Printing Data',
-        name2: 'Website Portfolio',
-        featuredImage: '',
-        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
-
-    },
-    {
-        id : 3,
-        name: 'Profesional Art Printing Data',
-        name2: 'Data Dashboard Healthcare',
-        featuredImage: '',
-        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
-
-    },
-    {
-        id : 4,
-        name: 'Profesional Art Printing Data',
-        name2: 'Website Portfolio',
-        featuredImage: '',
-        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
-    },
-    {
-        id : 5,
-        name: 'Profesional Art Printing Data',
-        name2: 'Website Portfolio',
-        featuredImage: '',
-        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
-    }, 
+  },
+  {
+    id: 2,
+    name: 'Profesional Art Printing Data',
+    name2: 'Website Portfolio',
+    featuredImage: '',
+    description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html2.png', 'bootstrap2.png', 'ruby2'],
+  },
+  {
+    id: 3,
+    name: 'Profesional Art Printing Data',
+    name2: 'Data Dashboard Healthcare',
+    featuredImage: '',
+    description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html2.png', 'bootstrap2.png', 'ruby2'],
+  },
+  {
+    id: 4,
+    name: 'Profesional Art Printing Data',
+    name2: 'Website Portfolio',
+    featuredImage: '',
+    description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html2.png', 'bootstrap2.png', 'ruby2'],
+  },
+  {
+    id: 5,
+    name: 'Profesional Art Printing Data',
+    name2: 'Website Portfolio',
+    featuredImage: '',
+    description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+    technologies: ['html2.png', 'bootstrap2.png', 'ruby2'],
+  },
 ];
 const mainPage = projectsContainer.map((section)=> ` <div class="project2 none2" id="project23">
 <h2 class="s4h1">${section.name}</h2>
