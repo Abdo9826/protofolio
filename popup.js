@@ -84,7 +84,7 @@ const projectsContainer = [
     technologies: ['html2.png', 'bootstrap2.png', 'ruby2'],
   },
 ];
-const mainPage = projectsContainer.map((section)=> ` <div class="project2 none2" id="project23">
+const mainPage = projectsContainer.map((section) => ` <div class="project2 none2" id="project23">
 <h2 class="s4h1">${section.name}</h2>
 <p class="p2">${section.description}</p>
 
@@ -100,11 +100,12 @@ const mainPage = projectsContainer.map((section)=> ` <div class="project2 none2"
 const sectionPage = document.querySelector('.body2');
 sectionPage.innerHTML += mainPage;
 // add a loop with an event listener for all the buttons to have the modal
+const mobilewindow1 = document.querySelector('.mobile-window');
 document.querySelectorAll('.btn2').forEach((e) => e.addEventListener('click', () => {
-    mobilewindow.style.display = 'block';
+  mobilewindow1.style.display = 'block';
 }));
 // Desktop version
-const Mainpage = projectsContainer.map((section2)=> ` <div class="project2 pro2">
+const Mainpage = projectsContainer.map((section2) => ` <div class="project2 pro2">
 
         <h2 class="s4h1 hpro2">${section2.name2}</h2>
         <p class="p2">${section2.description}</p>
