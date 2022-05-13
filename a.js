@@ -8,9 +8,6 @@ const mobilebutton1 = document.querySelector('.btn1');
 const xbutton = document.querySelector('.xbutton');
 const mobilewindow = document.querySelector('.mobile-window');
 const mobilebutton2 = document.querySelector('.btn2');
-const mobilebutton3 = document.querySelector('.btn23');
-const mobilebutton4 = document.querySelector('.btn24');
-const mobilebutton5 = document.querySelector('.btn25');
 const mobilebutton6 = document.querySelector('.btn26');
 
 humberger.addEventListener('click', () => {
@@ -47,18 +44,6 @@ mobilebutton1.addEventListener('click', () => {
 
 xbutton.addEventListener('click', () => {
   mobilewindow.style.display = 'none';
-});
-
-mobilebutton3.addEventListener('click', () => {
-  mobilewindow.style.display = 'block';
-});
-
-mobilebutton4.addEventListener('click', () => {
-  mobilewindow.style.display = 'block';
-});
-
-mobilebutton5.addEventListener('click', () => {
-  mobilewindow.style.display = 'block';
 });
 
 mobilebutton6.addEventListener('click', () => {

@@ -18,26 +18,105 @@ const p = document.createElement('p');
 p.setAttribute('class', 'prj1');
 p.innerText = 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a standard dummy text';
 container.append(p);
-const form = document.createElement('form');
-form.setAttribute('action', '#');
-container.append(form);
-const button1 = document.createElement('button');
-button1.setAttribute('class', 'btn1');
-button1.innerText = 'See Project';
-form.append(button1);
-const secondcard = document.querySelector('#project23');
-const h22 = document.createElement('h2');
-h22.setAttribute('class', 's4h1');
-h22.innerText = 'Profesional Art Printing Data';
-secondcard.append(h22);
-const p2 = document.createElement('p');
-p2.setAttribute('class', 'p2');
-p2.innerText = "  A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industry's standard";
-secondcard.append(p2);
-const form2 = document.createElement('form');
-form2.setAttribute('action', '#');
-secondcard.append(form2);
-const button2 = document.createElement('button');
-button2.setAttribute('class', 'btn2');
-button2.innerText = 'See Project';
-form2.append(button2);
+const ul1 = document.createElement('ul');
+ul1.setAttribute('class', 'lan1');
+container.append(ul1);
+ul1.innerHTML = `  <li class="l11">
+<img src="image/css.png" alt="css icon" />
+</li>
+<li class="l1">
+<img src="image/html.png" alt="html icon" />
+</li>
+<li class="l1">
+<img src="image/bootstrap.png" alt=" bootstrap icon" />
+</li>
+<li class="l1">
+<img src="image/runy.png" alt="runy" />
+</li>`;
+ const form = document.createElement('form');
+ form.setAttribute('action', '#');
+ container.append(form);
+ const button1 = document.createElement('button');
+ button1.setAttribute('class', 'btn1');
+ button1.innerText = 'See Project';
+ form.append(button1);
+// objects array
+const projectsContainer =[
+    {
+        id : 1,
+        name: 'Profesional Art Printing Data',
+        name2: 'Data Dashboard Healthcare',
+        featuredImage: '',
+        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
+
+    },
+    {
+        id : 2,
+        name: 'Profesional Art Printing Data',
+        name2: 'Website Portfolio',
+        featuredImage: '',
+        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
+
+    },
+    {
+        id : 3,
+        name: 'Profesional Art Printing Data',
+        name2: 'Data Dashboard Healthcare',
+        featuredImage: '',
+        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
+
+    },
+    {
+        id : 4,
+        name: 'Profesional Art Printing Data',
+        name2: 'Website Portfolio',
+        featuredImage: '',
+        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
+    },
+    {
+        id : 5,
+        name: 'Profesional Art Printing Data',
+        name2: 'Website Portfolio',
+        featuredImage: '',
+        description: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
+        technologies: ['html2.png', 'bootstrap2.png', 'ruby2'], 
+    }, 
+];
+const mainPage = projectsContainer.map((section)=> ` <div class="project2 none2" id="project23">
+<h2 class="s4h1">${section.name}</h2>
+<p class="p2">${section.description}</p>
+
+<ul class="lan2">
+  <li><img src="image/html2.png" alt="html icon" /></li>
+  <li><img src="image/bootstrap2.png" alt="bootstrap icon" /></li>
+  <li><img src="image/ruby2.png" alt="ruby icon" /></li>
+</ul>
+
+<form action="#"><button class="btn2">See Project</button></form> 
+</div>`).join('');
+// Append/ join the main page details to the section(body2 class)
+const sectionPage = document.querySelector('.body2');
+sectionPage.innerHTML += mainPage;
+// add a loop with an event listener for all the buttons to have the modal
+document.querySelectorAll('.btn2').forEach((e) => e.addEventListener('click', () => {
+    mobilewindow.style.display = 'block';
+}));
+// Desktop version
+const Mainpage = projectsContainer.map((section2)=> ` <div class="project2 pro2">
+
+        <h2 class="s4h1 hpro2">${section2.name2}</h2>
+        <p class="p2">${section2.description}</p>
+
+        <ul class="lan2">
+          <li><img src="image/html2.png" alt="html icon" /></li>
+          <li class="li222"><img src="image/bootstrap2.png" alt="bootstrap icon" /></li>
+          <li class="li222"><img src="image/ruby2.png" alt="ruby icon" /></li>
+          </ul>
+      </div>`).join('');
+
+const projects2 = document.querySelector('#projects2');
+projects2.innerHTML += Mainpage;
