@@ -312,23 +312,24 @@
         <form class="input"  action="https://formspree.io/f/mzbokrpo"
         method="POST">
 
-        <div class="none footerinput">
-        <input type="text" name="name" id="name2" class="none" placeholder="First Name" maxlength="30" required> 
+        <div class=" footerinput none">
+        <input type="text" id="name2" class="none" placeholder="First Name" maxlength="30" required> 
         <hr class="hrname none"/>
-        <input type="text" name="last name" id="lastname" class="none" placeholder="Last name" maxlength="30" required>
+        <input type="text"  id="lastname" class="none" placeholder="Last name" maxlength="30" required>
       <hr class="hrlastname none">
-        <input type="email" name="Email" id="Email" class="none" placeholder="Email address" required>
+        <input type="email"  id="Email" class="none" placeholder="Email address" required>
         <hr class="hremail none"> 
         <textarea class="none" name="textarea" id="textarea1" cols="30" rows="10" placeholder="Hello Abdo. Glad to see you |" required></textarea>
-         <button class="lastbtn none">Get in touch</button>
+      </div>     
+       
+      
+        <!-- <button type="submit" class="lastbtn none">Get in touch</button> -->
+       
+ 
 
-        </div>  
-
-
-          <input
+          <!-- <input
             class="none2"
-            type="text"
-            name="name"
+            type="text" 
             id="name"
             placeholder="Full name"
             maxlength="30"
@@ -338,7 +339,6 @@
           <input
             class="none2"
             type="email"
-            name="email"
             id="email"
             placeholder="Email address"
             required
@@ -355,13 +355,16 @@
             required>
             Enter text here
  </textarea
-          >
+          > -->
 
-          <button class="lastbtn none2">Get in touch</button>
-          <hr class="hrbtn none2"/>
+          <button type="submit" class="lastbtn ">Get in touch</button>
+          <small id="error"></small>
+          <hr class="hrbtn none"/>
         </form>
-        
       
+      
+
+
         <ul class="ul5">
           <li class="li5"><img src="image/gmaill.png" alt="gmail icon" /></li>
           <li class="li5"><img src="image/twit.png" alt="twitter icon" /></li>
@@ -421,6 +424,7 @@
         </div>
       </div>
     </div>
+    <script src="form.js"></script>
      <script src="popup.js"></script>
     <script src="a.js"></script>
   </body>
